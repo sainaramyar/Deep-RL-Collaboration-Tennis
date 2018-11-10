@@ -37,10 +37,10 @@ In this implementation, the following hyperparameters are used:
 
 * Both actor and critic models have 256 and 128 hidden nodes.
 * The soft update rate (tau) is increased to 0.15.
-* The batch size is increased to 256
+* The batch size is chosen 128
 * The noise is decaying with a slow value of 0.0005.
 
-![GitHub Logo](20agents.png)
+![GitHub Logo](ddpg_ma_method2.png)
 
 ### Future Improvements
 
